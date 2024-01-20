@@ -1,0 +1,132 @@
+body{
+background-color: whitesmoke;
+}
+
+/* Nav Bar Starts HEre */
+#nav_bar.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#nav_bar.navbar-default {
+    font-size: 14px;
+    background-color:forestgreen;
+    border-bottom-width: 1px;
+}
+#nav_bar.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color:forestgreen;
+}
+#nav_bar.navbar-default .navbar-nav>li>a:hover,
+#nav_bar.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(15, 15, 15, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#nav_bar.navbar-default .navbar-nav>.active>a,
+#nav_bar.navbar-default .navbar-nav>.active>a:hover,
+#nav_bar.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#nav_bar.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#nav_bar.navbar-default .navbar-toggle:hover,
+#nav_bar.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#nav_bar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#nav_bar.navbar-default .navbar-toggle:hover .icon-bar,
+#nav_bar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #97c79f;
+}
+.blog-top-image{
+    background-image: url(TRANSFUSION-jumbo.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+    margin-bottom: 50px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.padding {
+    text-align: center;
+    padding-top: 160px;
+
+}
+
+.img-withtext {
+    background-image: url(kidney-dialysis1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 10px;
+}
+
+.random {
+    background-color: aqua;
+    height: 200px;
+}
+
+.margin {
+   height: 200px;
+}
+
+.aside {
+    height: auto;
+    padding: 20px;
+    border: 2px solid grey ;
+    border-radius: 10px;
+}
+
+
+
+/*Footer Starts HEre*/
+
+
+.footer_bg{
+background-image: url(footer.jpg);
+    
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    background-size: cover;
+    font-family: 'Lora', serif;
+    color: white;
+    text-decoration: none;
+}
+
+i{
+    color: white;
+}
+.text_color_white{
+    color: white;
+}
+.text_color_white :hover{
+    color: white;
+    
+}
+/* FOtter Ends Here */
+
+.fontchanger p{
+    font-size: 18px;
+}
+
+
+
+.blogcaption {
+    color:black;     
+}
+@media only screen and (max-width: 1200px) {
+    .blogcaption{
+        padding-left: 2px;
+}
+}
+.nutritionimage {
+    background-image: url(fruit-419623_1280.jpg);
+    height: 500px;
+    margin-bottom: 100px;
+   
+    border-radius: 40px;
+}

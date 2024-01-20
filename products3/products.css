@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/* Nav Bar Starts HEre */
+#nav_bar.navbar-default .navbar-brand {
+color: rgba(255, 255, 255, 1);
+}
+#nav_bar.navbar-default {
+font-size: 14px;
+background-color:forestgreen;
+border-bottom-width: 1px;
+}
+#nav_bar.navbar-default .navbar-nav>li>a {
+color: rgba(255, 255, 255, 1);
+background-color:forestgreen;
+}
+#nav_bar.navbar-default .navbar-nav>li>a:hover,
+#nav_bar.navbar-default .navbar-nav>li>a:focus {
+color: rgba(15, 15, 15, 1);
+background-color: rgba(255, 255, 255, 1);
+}
+#nav_bar.navbar-default .navbar-nav>.active>a,
+#nav_bar.navbar-default .navbar-nav>.active>a:hover,
+#nav_bar.navbar-default .navbar-nav>.active>a:focus {
+color: rgba(85, 85, 85, 1);
+background-color: rgba(231, 231, 231, 1);
+}
+#nav_bar.navbar-default .navbar-toggle {
+border-color: #ddd;
+}
+#nav_bar.navbar-default .navbar-toggle:hover,
+#nav_bar.navbar-default .navbar-toggle:focus {
+background-color: #ddd;
+}
+#nav_bar.navbar-default .navbar-toggle .icon-bar {
+background-color: #888;
+}
+#nav_bar.navbar-default .navbar-toggle:hover .icon-bar,
+#nav_bar.navbar-default .navbar-toggle:focus .icon-bar {
+background-color: #97c79f;
+}
+.scrollToTop{
+    width:50px; 
+    height:50px;
+    padding:15px; 
+    text-align:center;
+    color: black;
+    background-color: black;
+    border-radius: 40px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:525px;
+    right:20px;
+    display:none;
+    transition: 0.3s;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.service-tabs h1{
+	color: green;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.service-tabs button{
+	margin-top: 40px;
+	width: 60%;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'open sans',sans-serif;
+	text-decoration: none;
+	border: 2px solid green;
+	background-color: white;
+	color: darkgreen;
+	border-radius: 40px;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+
+.service-tabs button:hover{
+	color: white;
+	width: 69%;
+	background-color:green;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+
+.service-tabs img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+
+i{
+color: white;
+}
+.footer_bg{
+background-image: url(footer.jpg);
+font-size: 15px;
+padding: 5px 20px 5px 20px;
+background-size: cover;
+font-family: 'Lora', serif;
+color: white;
+text-decoration: none;
+}
+
+
+.service-card {
+    border: 4px solid green;
+    border-radius: 30px;
+    height: auto;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+
+
+.hactive {
+    color: green;
+}
